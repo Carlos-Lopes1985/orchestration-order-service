@@ -1,0 +1,18 @@
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: full
+
+# Endereços dos serviços
+book-service:
+  url: http://localhost:8081
+
+person-service:
+  url: http://localhost:8082
+
+transaction-service:
+  url: http://localhost:8083
+
+server:
+  port: 8088
